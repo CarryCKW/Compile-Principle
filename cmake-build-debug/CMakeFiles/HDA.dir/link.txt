@@ -1,0 +1,3 @@
+D:\JetbrainsToolBox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\HDA.dir/objects.a
+D:\AllWorkForIns\WorkForEnv\MinGW\MinGW64\bin\ar.exe cr CMakeFiles\HDA.dir/objects.a @CMakeFiles\HDA.dir\objects1.rsp
+D:\AllWorkForIns\WorkForEnv\MinGW\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\HDA.dir/objects.a -Wl,--no-whole-archive  -o HDA.exe -Wl,--out-implib,libHDA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HDA.dir\linklibs.rsp
