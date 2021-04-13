@@ -1,1 +1,1 @@
-char else enum if int return sizeof while open read close printf malloc memset exit void main
+char else enum if int return sizeof while open read close printf malloc memset exit void main do

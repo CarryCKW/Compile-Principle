@@ -9,12 +9,12 @@
 using namespace std;
 enum Symbol{
     Num = 128, Fun, Sys, Id, Reserve,
-    Char, Else, Enum, If, Int, Return, Sizeof, While, Open ,Read, Close, Printf, Malloc, Memset, Exit, Void, Main,
+    Char, Else, Enum, If, Int, Return, Sizeof, While, Open ,Read, Close, Printf, Malloc, Memset, Exit, Void, Main,Do,
     Assign, Cond, Lor, Lan, Or, Xor, And, Eq, Ne, Lt, Gt, Le, Ge, Shl, Shr, Add, Sub, Mul, Div, Mod, Inc, Dec, Brak, Hex, Otc, Annotations,Separator,Variable
 };
 string s[] = {"Num", "Fun","Sys","Id", "Reserve",
               "Char", "Else", "Enum", "If", "Int", "Return", "Sizeof", "While", "Open", "Read", "Close",
-              "Printf", "Malloc", "Memset", "Exit", "Void", "Main",
+              "Printf", "Malloc", "Memset", "Exit", "Void", "Main","Do",
               "Assign", "Cond", "Lor", "Lan", "Or", "Xor", "And", "Eq", "Ne", "Lt", "Gt", "Le", "Ge", "Shl", "Shr", "Add", "Sub", "Mul", "Div"
               , "Mod", "Inc", "Dec", "Brak", "Hex", "Otc", "Annotations", "Separator", "Variable"};
 
@@ -57,7 +57,7 @@ int main() {
     printf("%s", src);
     int i = Char;
     idx = 0;
-    while (i <= Main) {
+    while (i <= Do) {
 //        cout<<"i:"<<i<<endl;
         next();
         identifier[idx].Class = Reserve;

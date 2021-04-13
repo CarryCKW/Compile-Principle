@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/la3.cpp
-stdio.h
--
-stdlib.h
--
-string.h
--
-memory.h
-D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/memory.h
+D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/test1.cpp
 iostream
 D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/iostream
+cmath
+D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/cmath
+cstdio
+D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/let_analysis/cstdio
 

@@ -1,4 +1,6 @@
 D:\JetbrainsToolBox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\AllWorkForIns\WorkForC++\CompileTheory\HDA
 -- Configuring done
+CMake Error: Cannot determine link language for target "HDA".
+CMake Error: CMake can not determine linker language for target: HDA
 -- Generating done
--- Build files have been written to: D:/AllWorkForIns/WorkForC++/CompileTheory/HDA/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.

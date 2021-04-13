@@ -3,4 +3,4 @@ project(HDA)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HDA let_analysis/test/test.txt let_analysis/la3.cpp)
+add_executable(HDA let_analysis/test/test.txt)
